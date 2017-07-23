@@ -1,0 +1,375 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.page-wrap {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+}
+
+#landing-page {
+  background-image: url('images/hero-image-dark01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+#landing-page-motto {
+  padding-top: 60vh;
+  color: #f6f6ef;
+  padding-left: 7.5%;
+  height: 100vh;
+}
+
+#story {
+  background-image: url('images/hero-image-dark01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.story-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: #3b3b3b;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.story-container p {
+  font-size: 20px;
+}
+
+#empty-div {
+  height: 50vh;
+  z-index: 12;
+}
+
+#story-div {
+  height: 50vh;
+  z-index: 12;
+  background: white;
+}
+
+#gallery {
+  background: #E8E8E8;
+}
+
+#faq {
+  background-image: url('images/hero-image-dark01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+#brand-logo {
+  width: 200px;
+}
+
+.navbar-default {
+  height: 76px;
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+  border-radius: 0;
+  background: white;
+}
+
+.container-fluid {
+  width: 85%;
+}
+
+.navbar-default .navbar-nav>li>a {
+  margin: 50px 15px 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #3B3B3B;
+}
+
+.nav, .navbar-nav, .navbar-right {
+  background: white;
+}
+
+.add-margin-bottom {
+  margin-bottom: 30px;
+}
+
+#landing-page-motto h1 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.container {
+  padding-top: 180px;
+}
+
+#faq h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  margin-top: 60px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.content-wrapper {
+    max-width:800px;
+    margin:20px auto 40px;
+    padding:3%;
+    background:#E8E8E8;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.inner-wrapper {
+  width: 100%;
+  background-color: white;
+  padding: 3% 10% 10%;
+}
+
+.inner-wrapper-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.faq-block {
+    background:#ffffff;
+    border-radius:10px;
+}
+
+.faq-block:not(:first-child) {
+    margin-top:3%;
+}
+
+.question-category-button {
+  background:#E8E8E8;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.question-category {
+    font-weight:normal;
+    text-align:left;
+    font-size:22px;
+    text-align:center;
+    margin:20px;
+}
+
+.question-list {
+  width: 90%;
+  padding: 0 3%;
+  border: 1px solid #E8E8E8;
+  margin: 10px auto;
+}
+
+.question-list p:last-of-type {
+  padding-bottom: 3%;
+}
+
+.question {
+    font-style:italic;
+    font-size:16px;
+    margin-bottom:0;
+    padding-top:10px;
+    border-top:solid #E8E8E8 1px;
+    font-weight:600;
+}
+
+.question-list p:first-of-type {
+  border-top: none;
+}
+
+.answer {
+    font-size:14px;
+    width:90%;
+    margin-left:5%;
+}
+
+ul {
+    padding-left:40px;
+}
+
+li {
+  list-style: none;
+}
+
+#order-form,
+#contact-form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#order-form label,
+#contact-form label {
+  display: block;
+  text-align: left;
+}
+
+#order-form input,
+#contact-form input {
+  width: 100%;
+}
+
+#radio input {
+  width: 15px;
+}
+
+#radio {
+  margin-bottom: 30px;
+}
+
+#order-form #submit,
+#contact-form #submit {
+  background-color: #0EB307;
+  color: white;
+  margin-top: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+#confirmation {
+  text-align: center;
+  padding-top: 10vh;
+  color: #3B3B3B;
+}
+
+.go-back-button {
+  background-color: #3B3B3B;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px 25px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 20px;
+}
+
+.footer {
+  background: white;
+  text-align: center;
+  color: #3b3b3b;
+  padding: 20px;
+}
+
+.footer ul, .footer li {
+  display: inline;
+  padding: 0;
+}
+
+.footer img {
+  width: 50px;
+  margin: 10px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+@media screen only and (max-device-width: 768px),
+only screen and (max-width: 768px) {
+  #brand-logo {
+    width: 90px;
+    margin-top: -5px;
+  }
+  #landing-page-motto {
+    padding-top: 60vh;
+    padding-left: 4%;
+  }
+  #landing-page-motto h1 {
+    font-size: 20px;
+  }
+  #faq {
+    background-image: none;
+    background: #E8E8E8;
+  }
+  #faq h2 {
+    color: black;
+  }
+  .container {
+    padding-top: 70px;
+  }
+  .row {
+    padding-top: 20px;
+  }
+  .story-container p, p {
+    font-size: 16px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    margin: 30px 15px;
+  }
+  .navbar-default .navbar-nav {
+    background: #E8E8E8;
+  }
+  .footer img {
+    width: 30px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  .g-recaptcha {
+      transform: scale(0.77);
+      -webkit-transform: scale(0.77);
+      transform-origin: 0 0 0;
+      -webkit-transform-origin: 0 0 0;
+  }
+}
